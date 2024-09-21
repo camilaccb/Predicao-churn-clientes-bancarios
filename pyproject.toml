@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "predicao-churn-clientes-bancarios"
+version = "0.1.0"
+description = ""
+authors = ["Camila Caldas <camisccb@gmail.com>"]
+readme = "README.md"
+packages = [{include = "predicao_churn_clientes_bancarios"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scikit-learn = "^1.5.2"
+streamlit = "^1.38.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
