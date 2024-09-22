@@ -7,9 +7,7 @@ sys.path.append('src/')
 
 from api.model.pipeline import Pipeline
 
-# versão fixada para nao dar inconsistência com o arquivo scikit-learn==1.3.2
-model = Pipeline().carrega_pipeline('src/api/MachineLearning/model/model_pipeline.pkl')
-
+model = Pipeline().carrega_pipeline('src/api/MachineLearning/models/churn_modelling_pipeline_rf.pkl')
 
 st.title('Modelo de Predição de Churn')
 
@@ -53,10 +51,10 @@ input= {
 }
 
 # Nomes das colunas (features)
-atributos = ['CreditScore','Geography','Gender','Age', 'Tenure', 'Balance', 'NumOfProducts', 'HasCrCard', 'IsActiveMember', 'EstimatedSalary']
+colunas = ['CreditScore','Geography','Gender','Age', 'Tenure', 'Balance', 'NumOfProducts', 'HasCrCard', 'IsActiveMember', 'EstimatedSalary']
 
 # Convertendo o dicionário em um DataFrame
-entrada = pd.DataFrame(input, columns=atributos)
+entrada = pd.DataFrame(input, columns=colunas)
 
 
 if st.button('Fazer predição de churn'):
