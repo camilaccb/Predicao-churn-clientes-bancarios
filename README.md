@@ -1,6 +1,5 @@
 # Predicao-churn-clientes-bancarios
 
-# SuperTx
 Projeto da sprint de **Qualidade de Software, Segurança e Sistemas Inteligentes** do [curso de pós graduação de Engenharia de Sofware da PUC Rio](https://especializacao.ccec.puc-rio.br/especializacao/engenharia-de-software).
 
 ## Objetivo do projeto
