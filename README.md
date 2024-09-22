@@ -3,7 +3,7 @@
 Projeto da sprint de **Qualidade de Software, Segurança e Sistemas Inteligentes** do [curso de pós graduação de Engenharia de Sofware da PUC Rio](https://especializacao.ccec.puc-rio.br/especializacao/engenharia-de-software).
 
 ## Objetivo do projeto
-Desenvolver o treinamento de um modelo de classificação de machine learning e integrá-lo com uma aplicação fullstack, que possibilite a entrada de novos dados no frontend para que o modelo de classificação faça a predição da classe de saida e exibir o resultado na tela.
+Desenvolver o treinamento de um modelo de classificação de machine learning e integrá-lo com uma aplicação fullstack, que possibilite a entrada de novos dados no frontend para que o modelo de classificação faça a predição da classe de saida e exiba o resultado na tela.
 
 ## Como executar
 Para executar o projeto, siga os passos:

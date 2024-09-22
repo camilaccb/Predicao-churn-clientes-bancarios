@@ -27,7 +27,6 @@ def test_modelo_rf():
     recall_rf = Avaliador.avaliar(pipeline_rf, x, y)
     
     # Testando as métricas do modelo usando o algoritmo de Randon Forest
-    # Modifique as métricas de acordo com seus requisitos
     assert recall_rf >= 0.7
 
 
@@ -42,5 +41,4 @@ def test_modelo_knn():
     recall_knn = Avaliador.avaliar(pipeline_knn, x, y)
     
     # Testando as métricas do modelo usando o algoritmo de knn
-    # Modifique as métricas de acordo com seus requisitos
     assert recall_knn >= 0.7
